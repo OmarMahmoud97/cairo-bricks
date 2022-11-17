@@ -1,19 +1,24 @@
 import React from "react";
-import building from "../../assets/images/building1.png";
+import building from "../../assets/images/building1.jpg";
 import "./about.scss";
 import Fade from "react-reveal/Fade";
 import Bottom from "../about-bottom/about-bottom";
 import HomeContact from "../about-contact/about-contact";
+import Slide from "react-reveal/Slide";
 
 function About() {
   return (
     <div className="about">
       <div className="about__container">
-        <img
-          className="about__building"
-          src={building}
-          alt="image of a red bricked bulding"
-        />
+        <Slide left>
+          {" "}
+          <img
+            className="about__building"
+            src={building}
+            alt="image of a red bricked bulding"
+          />
+        </Slide>
+
         <div className="about__landing">
           <Fade right>
             <h1 className="about__title">Bricks for sale</h1>

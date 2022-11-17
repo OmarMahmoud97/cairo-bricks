@@ -9,11 +9,12 @@
   &__text {
     width: 90%;
     height: 60%;
-    background-color: white;
+    background-color: rgba(84, 120, 106, 1);
     border-radius: 0 3rem 3rem 0;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    // flex-direction: column;
   }
 
   &__container {
@@ -48,5 +49,21 @@
     flex-direction: column;
     background-color: rgba(84, 120, 106, 1);
     border-radius: 0 3rem 3rem 0;
+  }
+
+  &__title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #efcf83;
+  }
+
+  &__button {
+    padding: 1rem;
+    border-radius: 1rem;
+    border-color: transparent;
+    background-color: #aa5725;
+    color: #efcf83;
+    cursor: pointer;
   }
 }

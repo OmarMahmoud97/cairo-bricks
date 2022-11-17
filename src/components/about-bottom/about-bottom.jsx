@@ -3,11 +3,14 @@ import "./about-bottom.scss";
 import egypt from "../../assets/animation/Untitled design (1).gif";
 import Fade from "react-reveal/Fade";
 import vid from "../../assets/images/Untitled video (4).mp4";
+import Slide from "react-reveal/Slide";
 
 function Bottom() {
   return (
     <div className="bottom">
-      <video className="bottom__video" src={vid} autoPlay loop muted />
+      <Slide right>
+        <video className="bottom__video" src={vid} autoPlay loop muted />
+      </Slide>
       <div className="bottom__container">
         <Fade left>
           <div className="bottom__card">
