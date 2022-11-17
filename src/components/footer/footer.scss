@@ -2,4 +2,46 @@
   height: 40vh;
   background-color: #54786a;
   width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-between;
+
+  &__logo {
+    width: 10rem;
+  }
+
+  &__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  &__label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #ded18d;
+  }
+
+  &__input-box {
+    width: 100%;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__item {
+    color: #ded18d;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
 }

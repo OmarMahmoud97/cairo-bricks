@@ -1,5 +1,6 @@
 @use "../../styles/partials/variables" as *;
-@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
 html {
   font-size: 62.5%;
 }
@@ -9,11 +10,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-size: 1.6rem;
-  font-family: "Krona One", sans-serif;
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;
-  // background-color: #54786a;
+  font-family: "DM Sans", sans-serif;
 }
 body::-webkit-scrollbar {
   display: none;

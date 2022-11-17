@@ -2,4 +2,57 @@
   height: 100vh;
   background-color: #ded18d;
   width: 100%;
+  display: flex;
+  align-items: center;
+  &__container {
+    width: 90%;
+    height: 60vh;
+    background: rgb(84, 120, 106);
+    background: linear-gradient(
+      270deg,
+      rgba(84, 120, 106, 0) 0%,
+      rgba(84, 120, 106, 1) 80%
+    );
+    position: absolute;
+    border-radius: 0 3rem 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  &__card {
+    background-color: white;
+
+    border-radius: 3rem;
+    width: 25%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // position: absolute;
+  }
+
+  &__title {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  &__img {
+    width: 100%;
+  }
+  &__text {
+    text-align: center;
+  }
+  &__video {
+    width: 50%;
+    object-fit: cover;
+    border-color: transparent;
+    border-radius: 3rem 0 0 3rem;
+    position: absolute;
+    right: 0;
+    height: 80vh;
+    width: 80vw;
+  }
 }
