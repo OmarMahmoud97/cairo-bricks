@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/Cairo.png";
+import logo from "../../assets/images/Cairo.svg";
 import "./Nav.scss";
 function Nav() {
   return (
