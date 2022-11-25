@@ -14,43 +14,38 @@ function Bottom() {
       <div className="bottom__container">
         <Fade left>
           <div className="bottom__card">
-            <h2 className="bottom__title">Header</h2>
+            <h2 className="bottom__title">Workers’ rights</h2>
             <div className="bottom__img-cont">
               <img className="bottom__img" src={egypt} alt="" />
             </div>
             <p className="bottom__text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-              magni quasi odit optio, inventore atque, rerum soluta iure
-              aspernatur quas veritatis vitae ipsum, iste et dignissimos sequi
-              sed aperiam? Nesciunt.
+              All employees in the supply chain are given all work rights to be
+              able to voice their opinions and optimize the workplace for
+              everyone.
             </p>
           </div>
         </Fade>
         <Fade bottom>
           <div className="bottom__card">
-            <h2 className="bottom__title">Header</h2>
+            <h2 className="bottom__title">Safe work environment</h2>
             <div className="bottom__img-cont">
               <img className="bottom__img" src={egypt} alt="" />
             </div>
             <p className="bottom__text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-              magni quasi odit optio, inventore atque, rerum soluta iure
-              aspernatur quas veritatis vitae ipsum, iste et dignissimos sequi
-              sed aperiam? Nesciunt.
+              No-one should have to fear danger in the workplace, and we go to
+              great miles to achieve a work place the brings comfort to all.
             </p>
           </div>
         </Fade>
         <Fade right>
           <div className="bottom__card">
-            <h2 className="bottom__title">Header</h2>
+            <h2 className="bottom__title">Fair pay</h2>
             <div className="bottom__img-cont">
               <img className="bottom__img" src={egypt} alt="" />
             </div>
             <p className="bottom__text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-              magni quasi odit optio, inventore atque, rerum soluta iure
-              aspernatur quas veritatis vitae ipsum, iste et dignissimos sequi
-              sed aperiam? Nesciunt.
+              All employees are paid fairly to ensure sustainable and secure
+              lives for them
             </p>
           </div>
         </Fade>
