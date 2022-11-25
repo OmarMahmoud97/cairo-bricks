@@ -7,7 +7,11 @@ function Nav() {
     <div className="nav">
       <div className="nav__container">
         <Link to="/">
-          <img className="nav__logo" src={logo} alt="logo image" />
+          <img
+            className="nav__logo"
+            src={logo}
+            alt="company logo stating Cairo Bricks"
+          />
         </Link>
         <ul className="nav__list">
           <Link to="/" className="nav__item">
@@ -18,6 +22,9 @@ function Nav() {
           </Link>
           <Link to="/contact" className="nav__item">
             Contact
+          </Link>
+          <Link to="/login" className="nav__item">
+            Login
           </Link>
         </ul>
       </div>
