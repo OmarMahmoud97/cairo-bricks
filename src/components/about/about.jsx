@@ -21,7 +21,7 @@ function About() {
 
         <div className="about__landing">
           <Fade right>
-            <h1 className="about__title">Bricks for sale</h1>
+            <h1 className="about__title">Bricks Made in Egypt</h1>
           </Fade>
           <Fade right>
             <h3 className="about__sub">Best bricks in the world!</h3>

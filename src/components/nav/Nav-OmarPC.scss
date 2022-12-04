@@ -1,0 +1,36 @@
+@use "../../styles/partials/variables" as *;
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem;
+  // background-color: #54786a;
+  background-color: #2b3f37;
+  height: 14vh;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  &__container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  &__logo {
+    height: 14vh;
+  }
+  &__item {
+    color: #ded18d;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
