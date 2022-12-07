@@ -23,9 +23,6 @@ function Nav() {
           <Link to="/contact" className="nav__item">
             Contact
           </Link>
-          <Link to="/login" className="nav__item">
-            Login
-          </Link>
         </ul>
       </div>
     </div>
